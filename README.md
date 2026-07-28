@@ -6,7 +6,7 @@ Repositório dedicado aos conteúdos, projetos e desafios da disciplina de **Pro
 
 ## 📅 Cronograma das Aulas
 
-| Dia da Semana | Horário | Foco da Sessão |
+| Dia da Semana | Horário |
 | :--- | :--- | :--- |
 | **Terça-feira** | 19:00 ➔ 20:40 |
 | **Sexta-feira** | 20:55 ➔ 22:35 | 
