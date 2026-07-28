@@ -17,4 +17,4 @@ Repositório dedicado aos conteúdos, projetos e desafios da disciplina de **Pro
 
 * **Sandrini Moraes Correa** - [Seu GitHub](https://github.com)
 * **Professor:** Ryan Soares
-* **Instituição:** Instituto Federal de Mato Grosso - Campus Fronteira Oeste - Pontes e Lacerda
+* **Instituição:** Instituto Federal de Mato Grosso / Campus Fronteira Oeste - Pontes e Lacerda-MT
