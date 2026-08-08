@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 3 - Card de produto</title>
+
+    <style>
+        body {
+            background-color: #eef1f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+            .card {
+            background-color: #ffffff;
+            width: 260px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+            border-radius: 14px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            transition: transform 0.2s ease;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+        }
+
+            .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+            .card h2 {
+            margin: 8px 0 4px 0;
+            color: #222;
+            font-size: 18px;
+        }
+
+            .card p {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+            .preco {
+            font-size: 20px;
+            font-weight: bold;
+            color: #27ae60;
+            margin-bottom: 15px;
+        }
+
+            .btn-comprar {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+
+        }
+
+            .btn-comprar:hover {
+            background-color: #1e874b;
+            transform: scale(1.05);
+        }
+    </style> 
+</head>
+<body>
+    
+    <div class="card">
+    <img src="image.png" alt="Foto do produto">
+    <h2>Fone de Ouvido Bluetooth</h2>
+    <p>JBL Wave Beam 2 JBLWBEAM2BLK Intra-auricular True Wireless Preto.</p>
+    <div class="preco">R$ 349,90</div>
+    <a href="https://www.magazineluiza.com.br/fone-de-ouvido-bluetooth-jbl-wave-beam-2-jblwbeam2blk-intra-auricular-true-wireless-preto/p/238896800/ea/focf/?seller_id=magazineluiza&srsltid=AfmBOopcIzuVpy1zZUxppTZJCTTM_gSlNGXSY3uzEJSTqaJmSwAu9TXjoMw" target="_blank" class="btn-comprar">Comprar</a>
+  </div>
+
+</body>
+</html>

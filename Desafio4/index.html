@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 4 - Galeria de fotos</title>
+
+    <style>
+        body {
+      background-color: #0d1117;
+  background-image:
+    linear-gradient(rgba(0, 255, 200, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 200, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 50% 0%, rgba(0, 150, 255, 0.15), transparent 60%);
+  background-size: 40px 40px, 40px 40px, 100% 100%;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #f0f0f0;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+    h1 {
+  margin-bottom: 30px;
+  color: #00ffc8;
+  text-shadow: 0 0 8px rgba(0, 255, 200, 0.6);
+}
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .foto {
+      background-color: #2b2b2b;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .foto img {
+      width: 500px;
+      height: 280;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .foto p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #cccccc;
+    }  
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Galeria de Fotos - Congresso da Sociedade Brasileira de Computação 2026</h1>
+
+  <div class="galeria">
+    <div class="foto">
+      <img src="image copy 4.png" alt="Início da Viagem">
+      <p>Saída de Cuiabá</p>
+    </div>
+    <div class="foto">
+      <img src="image copy.png" alt="Palestra">
+      <p>Palestra 1</p>
+    </div>
+    <div class="foto">
+      <img src="image copy 2.png" alt="Palestra 2">
+      <p>Palestra 2</p>
+    </div>
+    <div class="foto">
+      <img src="image copy 3.png" alt="Delegação MT">
+      <p>Delegação MT - IFMT E UFMT</p>
+    </div>
+    <div class="galeria">
+    <div class="foto">
+      <img src="image.png" alt="retorno da viagem">
+      <p>Travessia de balsa - Rio Paranapanema</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
