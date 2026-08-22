@@ -1,0 +1,70 @@
+/* ============================
+   TABLET (até 992px)
+============================ */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .nav-links {
+    gap: var(--spacing-sm);
+  }
+}
+
+/* ============================
+   MOBILE (até 768px)
+============================ */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+
+    transform: translateY(-150%);
+    opacity: 0;
+    transition: transform var(--transition), opacity var(--transition);
+  }
+
+  .nav-links.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero {
+    min-height: 70vh;
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/* ============================
+   MOBILE PEQUENO (até 480px)
+============================ */
+@media (max-width: 480px) {
+  .logo {
+    height: 36px;
+  }
+
+  .btn-cta {
+    padding: 0.7rem 1.6rem;
+    font-size: 0.95rem;
+  }
+}
