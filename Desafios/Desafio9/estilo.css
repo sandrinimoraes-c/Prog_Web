@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.empresa {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: #1864ab;
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.nome-empresa {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.link-vagas {
+  color: #1864ab;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.link-vagas:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.titulo-vaga h1 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.etiquetas {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.etiqueta {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  color: #ffffff;
+}
+
+.etiqueta-remoto {
+  background: #2f9e44;
+}
+
+.etiqueta-contrato {
+  background: #1864ab;
+}
+
+.etiqueta-nivel {
+  background: #e8590c;
+}
+
+.faixa-salario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 36px;
+}
+
+.salario-label {
+  font-size: 0.8rem;
+  color: #868e96;
+  margin-bottom: 4px;
+}
+
+.salario-valor {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1864ab;
+}
+
+.btn-candidatar {
+  text-decoration: none;
+  background: #1864ab;
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  border: 2px solid #1864ab;
+  transition: all 0.2s ease;
+}
+
+.btn-candidatar:hover {
+  background: #ffffff;
+  color: #1864ab;
+}
+
+.bloco {
+  margin-bottom: 32px;
+}
+
+.bloco h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 8px;
+}
+
+.bloco p {
+  line-height: 1.6;
+  color: #495057;
+}
+
+.lista-requisitos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lista-requisitos li {
+  padding-left: 24px;
+  position: relative;
+  color: #495057;
+  line-height: 1.5;
+}
+
+.lista-requisitos li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #1864ab;
+  font-weight: 700;
+}
+
+.grade-beneficios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.beneficio {
+  background: #e7f5ff;
+  color: #1864ab;
+  text-align: center;
+  padding: 14px 8px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .grade-beneficios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

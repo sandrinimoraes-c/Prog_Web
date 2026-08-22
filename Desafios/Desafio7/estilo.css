@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f1f2f6;
+  color: #2d3436;
+}
+
+.cabecalho {
+  background: #2d3436;
+  color: #ffffff;
+  padding: 24px 40px;
+}
+
+.cabecalho h1 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+}
+
+.cabecalho p {
+  color: #b2bec3;
+  font-size: 0.9rem;
+}
+
+.quadro {
+  display: flex;
+  gap: 20px;
+  padding: 32px 40px;
+  align-items: flex-start;
+}
+
+.coluna {
+  background: #e9ecef;
+  border-radius: 12px;
+  padding: 16px;
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.coluna-titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px 12px 4px;
+  border-bottom: 2px solid #dfe6e9;
+}
+
+.coluna-titulo h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #636e72;
+}
+
+.contador {
+  background: #ffffff;
+  color: #636e72;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.cartao {
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.cartao:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.cartao-titulo {
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.tag {
+  align-self: flex-start;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  color: #ffffff;
+}
+
+.tag-frontend {
+  background: #0984e3;
+}
+
+.tag-backend {
+  background: #6c5ce7;
+}
+
+.tag-bug {
+  background: #d63031;
+}
+
+.tag-docs {
+  background: #00b894;
+}
+
+.responsavel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: #636e72;
+}
+
+.avatar-mini {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #2d3436;
+  color: #ffffff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

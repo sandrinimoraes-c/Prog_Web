@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status | DevPlatform</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1>DevPlatform <span>Status</span></h1>
+  </header>
+
+  <main class="conteudo">
+
+    <section class="banner-status">
+      <span class="ponto"></span>
+      <p>Todos os sistemas operacionais</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Serviços</h2>
+
+      <div class="linha-servico">
+        <span class="nome-servico">API principal</span>
+        <span class="selo operacional">Operacional</span>
+      </div>
+      <div class="linha-servico">
+        <span class="nome-servico">Autenticação (Login)</span>
+        <span class="selo operacional">Operacional</span>
+      </div>
+      <div class="linha-servico">
+        <span class="nome-servico">Banco de dados</span>
+        <span class="selo degradado">Degradado</span>
+      </div>
+      <div class="linha-servico">
+        <span class="nome-servico">Armazenamento de arquivos</span>
+        <span class="selo operacional">Operacional</span>
+      </div>
+      <div class="linha-servico">
+        <span class="nome-servico">Envio de e-mails</span>
+        <span class="selo fora">Fora do ar</span>
+      </div>
+    </section>
+
+    <section class="bloco">
+      <h2>Disponibilidade (últimos 30 dias)</h2>
+      <div class="grade-barras">
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra alerta"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra falha"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+        <span class="barra ok"></span><span class="barra ok"></span><span class="barra ok"></span>
+      </div>
+      <p class="legenda">99.6% de uptime</p>
+    </section>
+
+    <section class="bloco">
+      <h2>Incidentes recentes</h2>
+
+      <article class="incidente critico">
+        <p class="incidente-titulo">Falha no serviço de envio de e-mails</p>
+        <p class="incidente-data">18 de agosto de 2026 — 09:42</p>
+        <p class="incidente-texto">
+          Identificamos uma interrupção no serviço de e-mails transacionais. Nossa equipe já
+          está investigando a causa raiz.
+        </p>
+      </article>
+
+      <article class="incidente aviso">
+        <p class="incidente-titulo">Lentidão no banco de dados</p>
+        <p class="incidente-data">15 de agosto de 2026 — 21:10</p>
+        <p class="incidente-texto">
+          Usuários podem notar respostas mais lentas em algumas consultas. Aplicamos um
+          patch temporário enquanto investigamos a causa.
+        </p>
+      </article>
+
+      <article class="incidente resolvido">
+        <p class="incidente-titulo">Instabilidade momentânea na API</p>
+        <p class="incidente-data">2 de agosto de 2026 — 14:05</p>
+        <p class="incidente-texto">
+          O problema foi identificado e corrigido. Todos os sistemas voltaram ao normal.
+        </p>
+      </article>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
